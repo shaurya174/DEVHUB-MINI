@@ -1,0 +1,42 @@
+body {
+      font-family: 'Inter', sans-serif;
+      background: url('../images/premium_photo-1673697239981-389164b7b87f.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    header {
+      backdrop-filter: blur(10px);
+      background: rgba(31, 41, 55, 0.9); /* dark navbar */
+      color: white;
+    }
+    header h1 { color: #facc15; }
+
+    .btn-gradient {
+      background: linear-gradient(90deg, #6366f1, #3b82f6);
+      color: white;
+      transition: all 0.3s ease-in-out;
+    }
+    .btn-gradient:hover {
+      transform: scale(1.05);
+      background: linear-gradient(90deg, #3b82f6, #6366f1);
+    }
+    .btn-red {
+      background: linear-gradient(90deg, #ef4444, #f87171);
+      color: white;
+    }
+    .btn-red:hover {
+      transform: scale(1.05);
+      background: linear-gradient(90deg, #f87171, #ef4444);
+    }
+
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+      background: rgba(255, 255, 255, 0.7);
+    }
+    .card:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    }

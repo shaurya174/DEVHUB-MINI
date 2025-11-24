@@ -1,0 +1,19 @@
+{
+  "name": "devhub-mini",
+  "version": "1.0.0",
+  "description": "JUST PRACTICE",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shaurya Mittal",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.11",
+    "pg": "^8.16.3"
+  }
+}
